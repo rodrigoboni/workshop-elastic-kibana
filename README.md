@@ -35,3 +35,5 @@ Documentação, containers e exemplos de configuração e uso da stack Elastic
 * [Dia 3](https://ela.st/br-day3)
 * [Dia 4](https://ela.st/br-day4)
 * [Dia 5](https://ela.st/br-day5)
+* [Metricbeat install on debian](https://www.elastic.co/guide/en/beats/metricbeat/current/metricbeat-installation.html)
+* [Filebeat install on debian](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation.html)
