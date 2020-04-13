@@ -107,7 +107,7 @@ Resumo do workshop sobre Elastic promovido pelo grupo Elastic São Paulo, entre 
 
 - É um mecânismo de busca / base de dados não relacional / schema less
 - Estrutura de dados baseada em JSON
-- Permite buscas escaláveis / buscas rápidas mesmo em bases com muitos dados
+- Permite buscas escaláveis / rápidas mesmo em bases com muitos dados
 
 - O Elastic é composto por clusters com seus respectivos nós (ao rodar o container local estamos subindo um nó)
 
@@ -176,9 +176,9 @@ Resumo do workshop sobre Elastic promovido pelo grupo Elastic São Paulo, entre 
         - Pode ser feito de forma automática ou manual (dependendo do caso é aconselhado mapear manualmente)
         - Adicionar documento e criar índice / mapear automáticamente (qdo o índice não existir)
 
-        - clientes = nome do índice
-        - \_doc = tipo do índice (padrão)
-        - /1 = id do documento
+            - clientes = nome do índice
+            - \_doc = tipo do índice (padrão)
+            - /1 = id do documento
 
             ```
             PUT clientes/_doc/1
@@ -261,7 +261,7 @@ Resumo do workshop sobre Elastic promovido pelo grupo Elastic São Paulo, entre 
 
             {
             "cluster_name" : "docker-cluster",
-            "status" : "yellow",
+            "status" : "yellow", (indica que o cluster não conseguiu indexar uma shard réplica)
             "timed_out" : false,
             "number_of_nodes" : 1,
             "number_of_data_nodes" : 1,
@@ -277,9 +277,6 @@ Resumo do workshop sobre Elastic promovido pelo grupo Elastic São Paulo, entre 
             "active_shards_percent_as_number" : 60.0
             }
             ```
-
-            - O estado "yellow" indica que o cluster não conseguiu indexar uma shard réplica
-            - O estado "red" indica que não foi possível indexar uma shard primária
 
             ```
             GET _cluster/allocation/explain
