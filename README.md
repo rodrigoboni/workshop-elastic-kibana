@@ -31,7 +31,6 @@ Resumo do workshop sobre Elastic promovido pelo grupo Elastic São Paulo, entre 
   - [Kibana - http://localhost:5601](http://localhost:5601)
 
 ## Dia 1 - Apresentação Elastic Stack
-
 - [Transmissão](https://ela.st/br-day1)
 - Beats e Logstash
   - Serviços de ingestão de dados / coleta de dados (em hosts, containers, aplicações etc)
@@ -49,9 +48,7 @@ Resumo do workshop sobre Elastic promovido pelo grupo Elastic São Paulo, entre 
   - Interface de visualização de dados e gerenciamento do Elastic
 
 ## Dia 2 - Observabilidade
-
 - [Transmissão](https://ela.st/br-day2)
-
 - Acessar a home do Kibana p/ ver lista de módulos de observabilidade disponíveis, com instruções de instalação e configuração - [home](http://localhost:5601/app/kibana#/home)
 
 - Beats
@@ -102,9 +99,7 @@ Resumo do workshop sobre Elastic promovido pelo grupo Elastic São Paulo, entre 
   - [O que é o Application Performance Monitoring (APM)?](https://www.elastic.co/pt/blog/monitoring-applications-with-elasticsearch-and-elastic-apm)
 
 ## Dia 3 - Conhecendo o Elasticsearch
-
 - [Transmissão](https://ela.st/br-day3)
-
 - É um mecânismo de busca / base de dados não relacional / schema less
 - Estrutura de dados baseada em JSON
 - Permite buscas escaláveis / rápidas mesmo em bases com muitos dados
@@ -316,23 +311,16 @@ Resumo do workshop sobre Elastic promovido pelo grupo Elastic São Paulo, entre 
             }
             ```
 
-## Dia 4 -
-
+## Dia 4 - Conhecendo o Logstash
 - [Transmissão](https://ela.st/br-day4)
 
 
-
-
-## Dia 5 -
-
+## Dia 5 - Conhecendo o Kibana
 - [Transmissão](https://ela.st/br-day5)
 
 
-
-
-
 ## Referências
-
+- [https://www.youtube.com/playlist?list=PLa7FPbWpq_hV8TxUiEEvCG19z4xGfZYKm](https://www.youtube.com/playlist?list=PLa7FPbWpq_hV8TxUiEEvCG19z4xGfZYKm)
 - [https://www.meetup.com/pt-BR/Sao-Paulo-Elastic-Fantastics/events/269769295](https://www.meetup.com/pt-BR/Sao-Paulo-Elastic-Fantastics/events/269769295)
 - [https://techlipe.github.io/Workshop-Zero-To-Hero/](https://techlipe.github.io/Workshop-Zero-To-Hero/)
 - [https://medium.com/@fqueirooz80](https://medium.com/@fqueirooz80)
